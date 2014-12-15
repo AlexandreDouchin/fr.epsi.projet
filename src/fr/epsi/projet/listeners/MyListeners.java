@@ -43,8 +43,23 @@ public class MyListeners {
 
 		listOfProduits = new ArrayList<Produit>();
 		Produit produit = new Produit();
+		produit.setReference("Produit 1");
+		produit.setNom("Produit 1");
+		produit.setQteDisponible(1);
+		
+		produit = new Produit();
 		produit.setReference("");
 		produit.setNom("");
-		produit.setQteDisponible(1);
+		produit.setQteDisponible(4);
+		
+		produit = new Produit();
+		produit.setReference("");
+		produit.setNom("");
+		produit.setQteDisponible(12);
+		
+		produit = new Produit();
+		produit.setReference("");
+		produit.setNom("");
+		produit.setQteDisponible(41);
 	}
 }

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import fr.epsi.projet.beans.Produit;
 import fr.epsi.projet.services.ProduitService;
 
+
 @Service
 public class ProduitServiceImpl implements ProduitService{
 
